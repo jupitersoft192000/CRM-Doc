@@ -1,0 +1,1 @@
+window.initMap=function(){var e={lat:41.85,lng:-87.65},o={lat:39.79,lng:-86.14},n=new google.maps.Map(document.getElementById("map-google"),{center:e,scrollwheel:!1,zoom:7}),t=new google.maps.DirectionsRenderer({map:n}),i={destination:o,origin:e,travelMode:"DRIVING"};(new google.maps.DirectionsService).route(i,function(e,o){"OK"==o&&t.setDirections(e)})};

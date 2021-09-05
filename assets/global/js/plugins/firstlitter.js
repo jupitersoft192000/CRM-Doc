@@ -1,0 +1,1 @@
+"use strict";!function(t){t.fn.firstLitter=function(e){return this.each(function(){var r=t(this),s=t.extend({},t.fn.firstLitter.defaults,r.data(),"object"==typeof e&&e),a=(t(s.target).text()||r.text()).charAt(0);s.upperCase&&(a=a.toUpperCase()),s.lowerCase&&(a=a.toLowerCase()),r.text(a)})},t.fn.firstLitter.defaults={upperCase:!0,lowerCase:!1}}(jQuery);

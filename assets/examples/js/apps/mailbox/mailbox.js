@@ -1,0 +1,1 @@
+$(function(){$(".mail-item-star").on("click",function(s){var a=$(this);a.hasClass("starred")?(a.removeClass("starred"),a.find(".zmdi").addClass("zmdi-star-outline").removeClass("zmdi-star")):(a.addClass("starred"),a.find(".zmdi").addClass("zmdi-star").removeClass("zmdi-star-outline")),s.preventDefault()})});
